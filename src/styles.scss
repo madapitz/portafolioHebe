@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900');
+
+body{
+	font-family: "Playfair Display" ,Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+$mainColor: #962820;
+
+@mixin desktop {
+	@media (min-width: 841px) {
+		@content;
+	}
+}
+
+@mixin responsive {
+	@media (max-width: 840px) {
+		@content;
+	}
+}

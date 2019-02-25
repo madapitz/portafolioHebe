@@ -1,0 +1,15 @@
+$mainColor: #962820;
+
+.navbar{
+	background-color: $mainColor !important;
+	width: 100vw;
+	left: -15px;
+	
+	.navbar-brand {
+		color: white;
+	}
+
+	.nav-link {
+		color: white;
+	}
+}

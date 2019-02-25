@@ -1,0 +1,35 @@
+$mainColor: #962820;
+
+.sidebar{
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	background-color: $mainColor; // #7c0a02
+	color: white;
+	left: 0;
+	
+	p {
+		margin: 7% 15%;
+		text-transform: lowercase;
+		
+		a{
+			text-decoration: none;
+			color: white;
+			font-size: 1.5em;
+		}
+
+		a:hover{
+			color: #cfde00;
+		}
+	}
+
+
+	h1{
+		font-weight: 700;
+		letter-spacing: 1.2;
+		font-size: 4em;
+		margin: 25% auto;
+	}
+	
+
+}

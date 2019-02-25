@@ -1,0 +1,13 @@
+@import '../styles';
+
+app-navbar {
+	@include responsive {
+		display: none;
+	}
+}
+
+app-navbarre {
+	@include desktop {
+		display: none;
+	}
+}
