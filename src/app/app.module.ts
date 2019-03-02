@@ -12,6 +12,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavbarreComponent } from './components/shared/navbarre/navbarre.component';
 
+import { Ng2ImgMaxModule } from 'ng2-img-max';
+import { PinturaComponent } from './components/pintura/pintura.component';
+import { CarruselComponent } from './components/carrusel/carrusel.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,10 +25,13 @@ import { NavbarreComponent } from './components/shared/navbarre/navbarre.compone
     PortfolioComponent,
     ContactComponent,
     FooterComponent,
-    NavbarreComponent
+    NavbarreComponent,
+    PinturaComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
+    Ng2ImgMaxModule,
     RouterModule.forRoot(ROUTES, {useHash: true}),
   ],
   providers: [],

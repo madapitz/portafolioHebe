@@ -1,0 +1,49 @@
+@import '../../../styles';
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	
+	font-size: 1.5rem;
+	letter-spacing: 1.2;
+
+	i {
+		color: #7c0a02;
+		font-size: 3rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.email{
+		background:
+		    linear-gradient(
+		    to bottom, #7c0a02 0%,
+		    #7c0a02 100%
+	    	);
+	    background-position: 0 100%;
+	    background-repeat: repeat-x;
+	    background-size: 4px 4px;
+	    text-decoration: none;
+	  	transition: background-size .2s;
+	  	color: black;
+	  	padding: 10px;
+	}
+
+	.email:hover{
+		background-size: 4px 50px;
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.vc {
+	margin-top: 10%;
+	@include desktop {
+		margin-top: 20%;
+	}
+}
