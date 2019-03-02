@@ -1,3 +1,13 @@
-<div class="card mx-auto" style="width: 15rem;">
-	 <img src="./assets/images/{{nombre}}" class="card-img-top" alt="...">
+<div class="card mx-auto limage" style="width: 15rem;">
+	 <img data-toggle="modal" attr.data-target="#exampleModalCenter{{index}}" src="./assets/images/{{nombre}}" class="card-img-top" alt="...">
+</div>
+
+<div class="modal fade" id="exampleModalCenter{{index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body m-0 p-0 w-100 h-100">
+        <img class="img-fluid" src="./assets/images/{{nombre}}" alt="...">
+      </div>
+    </div>
+  </div>
 </div>

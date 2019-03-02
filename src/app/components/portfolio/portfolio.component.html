@@ -3,8 +3,8 @@
 		<div class="col-12 text-center">
 			<h1 class="mt-3 mb-3">Portafolio</h1>
 		</div>
-		<div *ngFor="let pintura of pinturas" class="col-lg-4 col-md-4 col-sm-6 mt-3 mx-auto">
-			<app-pintura [nombre]="pintura" ></app-pintura>
+		<div *ngFor="let pintura of pinturas; let i=index" class="col-lg-4 col-md-4 col-sm-6 mt-3 mx-auto">
+			<app-pintura [nombre]="pintura" [index]="i" ></app-pintura>
 		</div>
 	</div>
 </div>
